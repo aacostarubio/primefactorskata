@@ -11,7 +11,7 @@ describe PrimeFactors do
 		['6', [2,3]],
 		['7', [7]],
 		['8', [2]*3],
-		['9', [3]*3],
+		['9', [3,3]],
 	].each do |expression, factors|
 		it 'should factor #{expression}' do
 			n = eval expression
